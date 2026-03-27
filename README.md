@@ -50,13 +50,13 @@ Frontend
 
 ### 2. Setup Backend
 - cd Game_Ecommerce_BackEnd
--- npm install
--- npm start
+- npm install
+- npm start
 
 ### 3. Setup Frontend
 - cd Game_Ecommerce_FrontEnd
--- npm install
--- npm run dev
+- npm install
+- npm run dev
 
 ## 🔄 Data Flow
 - User interacts with UI
