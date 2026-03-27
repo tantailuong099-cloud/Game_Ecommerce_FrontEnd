@@ -1,37 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Game E-commerce System (Fullstack)
 
-## Getting Started
+A fullstack Game E-commerce platform that allows users to browse, purchase, and manage digital game products. The system includes a modern frontend and a robust backend API.
 
-First, run the development server:
+## 🧩 System Architecture
+Frontend 
+        ↓
+ REST API (Backend)
+        ↓
+   Database (
+Frontend handles UI/UX and user interactions
+Backend handles business logic, authentication, and data processing
+Database stores users, products, orders, and transactions
 
-```bash
+## 🚀 Features
+
+### 🖥️ Frontend
+Browse and search games
+Filter by category, price, platform
+Game detail page
+Cart & checkout UI
+Authentication (Login/Register)
+
+### ⚙️ Backend
+- RESTful API
+- User authentication & authorization (JWT)
+- Product management (CRUD)
+- Order & payment processing
+- Online payment integration (ZaloPay)
+- Database management
+- Role-based access (Admin/User)
+
+## 🛠️ Tech Stack
+Frontend: Next.js, TailwindCSS
+Backend: Nest.js, JWT Authentication, RESTful API
+Database:  MongoDB
+
+## 🔗 API Overview
+Method	Endpoint	Description
+POST	/auth/login	Login user
+POST	/auth/register	Register user
+POST	/orders	Create order
+
+## ⚙️ Installation
+### 1. Clone project
+git clone https://github.com/tantailuong099-cloud/Game_Ecommerce_FrontEnd.git
+git clone https://github.com/tantailuong099-cloud/Game_Ecommerce_BackEnd.git
+
+### 2. Setup Backend
+cd Game_Ecommerce_BackEnd
+npm install
+npm start
+
+### 3. Setup Frontend
+cd Game_Ecommerce_FrontEnd
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔄 Data Flow
+User interacts with UI
+Frontend sends API request via Axios
+Backend processes request
+Database returns data
+Backend sends response → Frontend renders UI
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 👨‍💻 Author
+GitHub: https://github.com/tantailuong099-cloud
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
+## ⭐ Support
+If you like this project, give it a ⭐ on GitHub!
