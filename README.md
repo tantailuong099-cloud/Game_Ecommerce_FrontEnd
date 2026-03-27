@@ -43,8 +43,8 @@ POST	/orders	Create order
 
 ## ⚙️ Installation
 ### 1. Clone project
-git clone https://github.com/tantailuong099-cloud/Game_Ecommerce_FrontEnd.git
-git clone https://github.com/tantailuong099-cloud/Game_Ecommerce_BackEnd.git
+- git clone https://github.com/tantailuong099-cloud/Game_Ecommerce_FrontEnd.git
+- git clone https://github.com/tantailuong099-cloud/Game_Ecommerce_BackEnd.git
 
 ### 2. Setup Backend
 cd Game_Ecommerce_BackEnd
